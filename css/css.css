@@ -5,3 +5,28 @@
     justify-content: center;
     color: white;
 }
+
+.recuadro {
+    width: 600px; /* Ancho del recuadro */
+    height: 300px; /* Alto del recuadro */
+    border: 2px solid gainsboro; /* Borde de 2 píxeles de grosor, estilo sólido y color negro */
+    background-color: whitesmoke; /* Color de fondo del recuadro */
+    padding: 50px ; /* Espacio interno para separar el contenido del borde */
+    margin: 0 auto; /* Auto para centrar horizontalmente */
+    text-align: center;     
+}
+
+.imagenAjustada{
+    width: 400px;
+    height: 300px; 
+}
+
+.btnBiografia{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+}
+.boton{
+    text-align: center;
+    padding: 20px;
+}
