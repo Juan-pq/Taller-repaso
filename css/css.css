@@ -30,3 +30,11 @@
     text-align: center;
     padding: 20px;
 }
+
+.footer-title{
+    background-color: red;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
