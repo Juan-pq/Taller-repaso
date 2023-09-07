@@ -7,12 +7,12 @@
 }
 
 .recuadro {
-    width: 600px; /* Ancho del recuadro */
-    height: 300px; /* Alto del recuadro */
+    width: 600px;                   /* Ancho del recuadro */
+    height: 300px;                  /* Alto del recuadro */
     border: 2px solid gainsboro; /* Borde de 2 píxeles de grosor, estilo sólido y color negro */
     background-color: whitesmoke; /* Color de fondo del recuadro */
-    padding: 50px ; /* Espacio interno para separar el contenido del borde */
-    margin: 0 auto; /* Auto para centrar horizontalmente */
+    padding: 50px ;                 /* Espacio interno para separar el contenido del borde */
+    margin: 0 auto;                 /* Auto para centrar horizontalmente */
     text-align: center;     
 }
 
@@ -38,3 +38,88 @@
     justify-content: center;
     color: white;
 }
+
+.elementomargenIndex {
+    margin: 10px 10px 0px 10px;
+  }
+
+/*------------------------------------------------*/
+/*-------------------archivo biografia------------*/
+/*------------------------------------------------*/
+.navbar {
+    background-color: red;             /* Fondo rojo */
+    padding: 10px 20px;                  /* Espaciado interno */
+    display: flex;                       /* Mostrar elementos en línea */
+    justify-content: center;             /* Centrar contenido horizontalmente */
+  }
+
+  /* Estilos para el título de la barra de navegación */
+  .navbar-title {
+    margin: 0;
+    color: white;                      /* Texto blanco */
+  }
+
+  .contento {
+    display: flex;
+    justify-content: space-between;      /* Distribuye los elementos horizontalmente */
+    align-items: center;                 /* Centra verticalmente los elementos en el contenedor */
+    padding: 50px 50px 20px 50px;
+  
+  }
+
+  .textoimagen {
+    padding: 50px 25px;
+    border: 2px solid #a39c9c5c;       /* 2px de ancho, sólido (tipo de borde) y color negro (#000) */
+    display: flex;
+  
+  }
+  
+  .texto {
+    flex: 1;                            /* Hace que el texto ocupe el espacio restante  */
+    text-align: left;
+  }
+  
+  .imagen {
+    flex-shrink: 0;                      /*Evita que la imagen se reduzca si el espacio es insuficiente  */
+    margin-left: 20px;                   /*Agrega un margen entre el texto y la imagen (ajusta según tu diseño)  */
+    text-align: right;
+  }
+  
+  .botonVolverAindex{
+    padding: 26px;
+  }
+  
+  .botonVolver{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  /* Estilos para la barra de navegación */
+  .footer-biografia {
+    background-color: red;               /* Fondo rojo */
+    padding: 10px 20px;                    /* Espaciado interno */
+    display: flex;                         /* Mostrar elementos en línea */
+    justify-content: center;               /* Centrar contenido horizontalmente */
+    color: white;
+  }
+
+  /*.footer-biografia {
+    margin: 4;
+    color: white;                        
+  }
+  .footer-biografia{
+    background-color: red;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}*/
+
+  .elementomargen {
+    margin: 10px 10px 0px 10px;
+  }
+
+  .p{
+    text-align: center;
+  }
