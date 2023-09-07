@@ -1,0 +1,7 @@
+.titleNavbar{
+    background-color: red;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
